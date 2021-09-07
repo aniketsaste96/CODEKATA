@@ -1,0 +1,10 @@
+var data = userInput[0].split("");
+var num =data.sort(function(a, b){return a - b});
+var b = num.filter(data => data %2 ==0).join();
+var d = num.filter(data => data %2 !=0).join();
+
+var c = b.replace(/,/g, " ");
+var e = d.replace(/,/g, " ");
+
+console.log(c);
+console.log(e);
