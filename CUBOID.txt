@@ -1,0 +1,11 @@
+var data = userInput[0].split(" ");
+
+var L = +data[0];
+var B = +data[1];
+var H = +data[2];
+
+var SA = 2 * ((L*B) + (B*H) +(L*H));
+
+var V = L * B * H;
+
+console.log(SA+' '+V);
