@@ -1,0 +1,15 @@
+var data = userInput[0];
+
+if(data == 0){console.log("no");}
+else if(data < 1){console.log("no")}
+else{
+    for(var i =2; i<data;i++){
+        if(data%i ==0){
+            var result = "no";
+            break;
+        }
+        else{
+            var result = "yes";}
+            
+        }
+        console.log(result);
