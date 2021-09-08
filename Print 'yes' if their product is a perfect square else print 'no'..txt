@@ -1,0 +1,16 @@
+var data = userInput[0].split(" ");
+
+var N = data[0];//17
+var M = data[1];//17
+
+
+var a =(N * M);//289
+
+
+if(a/N==N){
+    console.log("yes");
+}
+else if(a/M == M){
+    console.log("yes");
+    
+}else{(console.log("no"));}
