@@ -1,0 +1,11 @@
+HR05-AA-2669
+
+-----------------------
+let str = userInput[0];
+let num =0;
+let data= str.replace( /[^\d\.]*/g, '');
+
+for(let i = 0;i<data.length;i++){
+    num = parseInt(num) + parseInt(data[i]);
+}
+console.log(num);
