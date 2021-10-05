@@ -1,0 +1,15 @@
+Given an angle A, print the sine of the given angle.
+Sample Testcase :
+INPUT
+30
+OUTPUT
+0.5
+--------------
+//The sin function in Javascript takes radians, 
+not degrees. we need to convert 
+//30 to radians to get the correct answer:
+
+var angle = userInput[0];
+var PI = 3.141;
+var deg= Math.sin(angle*Math.PI/180);
+console.log(deg.toFixed(1));
