@@ -1,0 +1,44 @@
+44 66
+ output
+0
+-----------------------------
+function xSum(n, m)
+{
+    // variable to store result
+    var res = 0;
+ 
+    // variable to maintain
+    // place value
+    var multiplier = 1;
+ 
+    // variable to maintain
+    // each digit sum
+    var bit_sum;
+ 
+    // Add numbers till each
+    // number become zero
+    while (n || m) {
+ 
+        // Add each bits
+        bit_sum = (n % 10) + (m % 10);
+         
+        // Neglect carry
+        bit_sum %= 10;
+         
+        // Update result
+        res = (bit_sum * multiplier) + res;
+        n = parseInt(n / 10);
+        m = parseInt(m / 10);
+         
+        // Update multiplier
+        multiplier *= 10;
+    }
+    return res;
+}
+ 
+// Driver program
+var data = userInput[0].split(' ');
+
+var n = data[0];
+var m = data[1];
+console.log(xSum(n, m));
