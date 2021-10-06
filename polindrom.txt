@@ -1,0 +1,8 @@
+ let str = userInput[0];
+let strReverse = str.split("").reverse().join("");
+
+if (str === strReverse) {
+  console.log("yes");
+} else {
+  console.log("no");
+}
