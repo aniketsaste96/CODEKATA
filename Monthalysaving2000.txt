@@ -1,0 +1,15 @@
+let n = +userInput[0];
+
+let arr=[1000,1000];
+
+let sumtillnow=arr[0]+arr[1]; //0th month + 1st month
+
+//for n months from 2nd month onwards->
+
+for(let i =2; i<=n; i++){
+ arr[i]=arr[i-1]+arr[i-2];
+
+sumtillnow+= arr[i];
+
+}
+console.log(sumtillnow);
