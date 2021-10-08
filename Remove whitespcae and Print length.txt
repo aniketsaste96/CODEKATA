@@ -1,0 +1,10 @@
+Sample Input :
+Lorem Ipsum
+Sample Output :
+10
+---------------------------------
+var a = userInput[0].replace(/\s+/g, '')
+
+var b = a.length
+
+console.log(b);
