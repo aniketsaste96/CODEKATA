@@ -1,0 +1,15 @@
+Sample Input :
+2 3
+Sample Output :
+1
+-------------------------
+
+ var data = userInput[0].split(" ");
+     var x = data[0];
+     var y = data[1];
+   
+    var minimum = Math.min(x, y);
+ 
+   
+    if (x % minimum == 0 && y % minimum == 0)
+        console.log(minimum) ;
