@@ -1,0 +1,14 @@
+var str=userInput[0].split(" ");
+
+var a = str.toString();
+
+var b =" ";
+
+for(var i=0;i<a.length;i++)
+
+{
+b += a.charAt(i)+" ";
+
+}
+
+console.log(b.trim());
