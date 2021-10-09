@@ -1,0 +1,22 @@
+Input:
+5
+5 4 3 2 1
+3
+1 2 3
+Expected Output:
+1 2 3 4 5
+Actual Output:
+1 2 3 4 5
+-------------------------- 
+
+
+
+let a =userInput[0];
+let arr1 =userInput[1];
+let c =userInput[2];
+let arr2 =userInput[3];
+
+let arr = (arr1+" "+arr2).split(' ');
+ let sort = arr.sort(function(a, b){return a-b});
+ let uniqueChars = [...new Set(sort)]; //To remove duplicates.
+console.log(uniqueChars.join(' '));
