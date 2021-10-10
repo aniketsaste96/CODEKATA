@@ -1,0 +1,19 @@
+gcd = Greatest common divisor.
+
+largest number that divides both numbers without leaving any remiander.
+
+ex = 10,15 = gcd >>5.
+
+1)brute force >>inefficient.
+--------------------------------------
+2)Euclids Algo
+ let data= userInput[0].split(' ');
+let A = data[0];
+let B = data[1];
+let gcd = function(A, B) {
+    if (B == 0) {
+        return A;
+    }
+return gcd(B, A % B);
+};
+console.log(gcd(A,B));
