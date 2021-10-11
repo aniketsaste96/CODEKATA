@@ -1,0 +1,41 @@
+/*
+Sample Input :
+3
+Sample Output :
+9 18 27
+
+----------------------------*/
+
+let N = userInput[0];
+
+let res = "";
+
+if ( +N === 0)
+
+{
+
+console.log("NULL");
+
+}
+
+else
+
+{
+
+let table,i;
+
+for (i = 1; i<=N-1; i++)
+
+{
+
+table = 9 * i;
+
+res += table + " ";
+
+}
+
+table=9*i;
+
+res+=table;
+
+console.log(res); }
