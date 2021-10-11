@@ -1,0 +1,12 @@
+Sample Input :
+5
+Sample Output :
+1
+2
+3
+4
+5
+---------------------------
+for(i = 1;i<=userInput[0];i++){
+    console.log(i);
+}
