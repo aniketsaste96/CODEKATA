@@ -1,0 +1,5 @@
+var a = userInput[0];
+var b = userInput[1].split(' ').map(Number);
+var indexofmin = b.indexOf(Math.min(...b));
+var indexofmax = b.indexOf(Math.max(...b));
+console.log(indexofmax-indexofmin);
