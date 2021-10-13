@@ -1,0 +1,9 @@
+let year = userInput[0];
+if(year%4===0)
+console.log("Y");
+else if(year%100===0)
+console.log("N");
+else if(year%400===0)
+console.log("Y");
+else console.log("N");
+});
