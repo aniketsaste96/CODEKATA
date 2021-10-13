@@ -1,0 +1,5 @@
+   let A = userInput[0];
+let B = parseInt(A);
+let C = parseInt(B, 2).toString(16);
+
+console.log(C);
