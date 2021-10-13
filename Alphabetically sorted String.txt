@@ -1,0 +1,6 @@
+let A = userInput[0];
+  let data = userInput[1].split(" ");
+  let sort = data.sort().join(' ');
+    
+
+console.log(sort);
