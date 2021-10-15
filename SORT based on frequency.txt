@@ -1,0 +1,4 @@
+
+    let arr=userInput[0].split('');
+ let sort = arr.sort().join('');
+ console.log(sort);
