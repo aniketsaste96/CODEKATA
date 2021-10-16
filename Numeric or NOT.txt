@@ -1,0 +1,7 @@
+var data = userInput[0];
+
+if(data < 0 || data > 9){
+    console.log("yes")
+}
+else{(
+    console.log("no"))}
