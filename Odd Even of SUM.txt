@@ -1,0 +1,18 @@
+INPUT
+9 2
+OUTPUT
+odd
+------------------ 
+
+
+let data = userInput[0];
+
+let add = (parseInt(data[0])+parseInt(data[2]));
+
+
+if(add%2==0){
+    console.log("even");
+}
+else{
+    (console.log("odd"));
+}
