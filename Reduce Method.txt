@@ -1,0 +1,21 @@
+const numbers =[1,-1,2,3];
+
+let sum =0;
+
+for(let n of numbers)
+
+  sum = sum + n;  // sum+=n;
+
+console.log(sum);
+>>>5
+-----------------------------------------
+
+const numbers =[1,-1,2,3];
+
+const sum = numbers.reduce((accumulator,currentVlaue)=>{
+     return accumulator + currentVlaue;
+},0);
+console.log(sum);
+
+
+>>>5
