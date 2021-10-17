@@ -1,0 +1,13 @@
+*/[2, 1, 2, 5, 5]
+O/P >>1
+/*
+
+
+const A =userInput[0];
+const arr = userInput[1].split(' ');
+const result = arr.sort((a,b) =>
+          arr.filter(v => v===b).length
+        - arr.filter(v => v===a).length
+    ).pop();
+
+console.log(result)
