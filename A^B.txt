@@ -1,0 +1,13 @@
+/*INPUT
+3 4
+OUTPUT
+81
+------------------------*/
+
+let data = userInput[0].split(' ');
+
+let A =data[0];
+let B = data[1];
+
+let sqrt = Math.pow(A,B);
+console.log(sqrt);
