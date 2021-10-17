@@ -1,0 +1,20 @@
+/*Sample Input :
+10
+1 9 8 7 6 5 2 3 4 10
+Sample Output :
+9
+-------------------------
+Input:
+3
+1 2 3
+Expected Output:
+2
+------------------*/
+
+
+let A =userInput[0];
+let data = userInput[1].split(' ');
+
+let srt =data.sort(function(a, b){return a-b});
+let secondLargest= srt[A-2];
+console.log(secondLargest);
