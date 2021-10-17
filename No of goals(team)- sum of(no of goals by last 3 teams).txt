@@ -1,0 +1,17 @@
+let data = userInput[0];
+let data1 = userInput[1].split(' ');
+
+let rev = data1.reverse();
+let add = (+rev[0])+(+rev[1])+(+rev[2]);
+
+let sum =0;
+let minus = " ";
+
+ for(let j=0;j<data1.length;j++){
+   
+    minus+=(data1[j]-add)+" ";
+    
+
+
+}
+console.log(minus.split(' ').reverse().join(' ').trim());
