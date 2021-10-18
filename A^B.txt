@@ -9,5 +9,5 @@ let data = userInput[0].split(' ');
 let A =data[0];
 let B = data[1];
 
-let sqrt = Math.pow(A,B);
+let sqrt = Math.pow(A,B);//A**B
 console.log(sqrt);
