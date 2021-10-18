@@ -1,4 +1,4 @@
-You are given an array of non-negative integers representing height of walls at index i as Ai and the width of each block is 1. Compute how much air can be encapsulated between the walls of chamber.
+/*You are given an array of non-negative integers representing height of walls at index i as Ai and the width of each block is 1. Compute how much air can be encapsulated between the walls of chamber.
 
  
 
@@ -14,7 +14,7 @@ Sample Input :
 Sample Output :
 3
 
-----------------------------------------------
+----------------------------------------------*/
 const range = parseInt(userInput[0]);
 const arra = userInput[1].split(" ");
 let diff = 0;
