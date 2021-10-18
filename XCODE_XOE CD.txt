@@ -1,0 +1,15 @@
+
+ let data = userInput[0].split('');
+ let even =[];
+ let odd =[];
+ 
+for(let i =0;i<data.length;i++){
+    if(i%2==0){
+        even.push(data[i])}
+         if(i%2!=0){
+             odd.push(data[i])
+         }
+    
+   
+}
+console.log((even.join('')+" "+odd.join('')));
