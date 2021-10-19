@@ -1,8 +1,8 @@
-INPUT
+/*INPUT
 9 2
 OUTPUT
 odd
------------------- 
+------------------*/ 
 
 
 let data = userInput[0];
