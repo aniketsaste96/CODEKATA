@@ -1,0 +1,38 @@
+/*Sample Input :
+3 5
+
+Sample Output :
+* * * * *
+* * * * *
+* * * * *
+
+
+------------------------------------------------------------------*/
+
+let data = userInput[0].split(' ');
+  
+  let a = data[0];
+  let b = data[1];
+  
+  let i,j;
+  let string ='';
+ 
+  for(i=0;i<a;i++){
+      for(j=0;j<b;j++){
+          
+         string+="* ";
+      }
+      
+  string += "\n";
+     
+  }
+  
+console.log(string.replace(/\s+$/gm, ""));
+
+/*o/p------------------------------------------------------------------
+* * * * *  
+* * * * *
+* * * * *
+
+//.replace(/\s+$/gm, "")=> here m Remove spaces from multiline string
+//.replace(/\s\s*$/gm, "")=>This is also gud. same result.  */
