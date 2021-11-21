@@ -1,0 +1,33 @@
+
+//Convert all the strings to title caps in a string array
+
+var data1 = ['hello', 'guvi', 'geek'];
+
+
+let Titlecap = function () {
+    var upperCase = data1.map(([firstChar, ...rest]) => firstChar.toUpperCase() + rest.join("").toLowerCase()).join(" ")
+
+
+    console.log(upperCase);
+
+}
+
+Titlecap();
+//Out put >> Hello Guvi Geek
+
+
+
+
+
+
+
+
+
+
+(function () {
+    var upperCase = data1.map(([firstChar, ...rest]) => firstChar.toUpperCase() + rest.join("").toLowerCase()).join(" ")
+
+
+    console.log(upperCase);
+})();
+//Out put >> Hello Guvi Geek

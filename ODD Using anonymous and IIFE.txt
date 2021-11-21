@@ -1,0 +1,39 @@
+
+//1Print odd numbers in an array using anonymous & IIFE
+
+var data = [1, 2, 3, 4, 6, 6, 7, 9, 7, 2, 8, 1, 6, 7,];
+
+let odd = function () {
+    let odds = [];
+    for (let i = 0; i < data.length; i++) {
+        if (data[i] % 2 != 0) {
+            odds.push(data[i]);
+        }
+
+    }
+    console.log(odds);
+}
+odd();
+
+//Array(7) [ 1, 3, 7, 9, 7, 1, 7 ]
+
+
+
+
+
+
+
+
+
+//IIFE (Immediately Invoked Function Expression) 
+(function () {
+    let odds = [];
+    for (let i = 0; i < data.length; i++) {
+        if (data[i] % 2 != 0) {
+            odds.push(data[i]);
+        }
+
+    }
+    console.log(odds);
+})();
+//Array(7) [ 1, 3, 7, 9, 7, 1, 7 ]

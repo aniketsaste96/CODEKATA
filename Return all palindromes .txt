@@ -1,0 +1,57 @@
+
+// 5.Return all the palindromes in an array
+let words = ['NITIN', 'RACERCAR', 'reviver', 'porcupine', 'pineenip', 'refer', 'radar'];
+let palindrome = function () {
+    var arr = [];
+    var str = words.slice(0);
+    var pal = str.toString().split("").reverse().join("").split(",");
+    console.log(pal);
+
+
+    for (let i = 0; i < words.length; i++) {
+        for (let k = 0; k < pal.length; k++) {
+            if (words[i] == pal[k]) {
+                arr.push(words[i])
+            }
+        }
+    }
+
+
+    console.log(arr);
+}
+palindrome();
+
+//output Array(5) [ "NITIN", "reviver", "pineenip", "refer", "radar" ]
+
+
+
+
+
+
+
+
+
+
+(function () {
+    let words = ['NITIN', 'RACERCAR', 'reviver', 'porcupine', 'pineenip', 'refer', 'radar'];
+    let palindrome = function () {
+        var arr = [];
+        var str = words.slice(0);
+        var pal = str.toString().split("").reverse().join("").split(",");
+        console.log(pal);
+
+
+        for (let i = 0; i < words.length; i++) {
+            for (let k = 0; k < pal.length; k++) {
+                if (words[i] == pal[k]) {
+                    arr.push(words[i])
+                }
+            }
+        }
+
+
+        console.log(arr);
+    }
+    palindrome();
+
+})();
