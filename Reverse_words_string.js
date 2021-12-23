@@ -1,6 +1,6 @@
-// Sample Input :
+// Sample Input 
 // guvi geek
-// Sample Output :
+// Sample Output 
 // ivug keeg
 
 
