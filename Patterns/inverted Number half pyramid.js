@@ -15,7 +15,7 @@ let num = userInput[0]
 for(let row =1;row<=num;row++){
     //for every row run the col
     for(let col=1;col<=num-row+1;col++){
-        result+=col
+        result+=col   //printing col number itself
     }
     //when one row is printed we need new line
      result+="\n"
