@@ -4,5 +4,5 @@ let array = new Array(count).fill(value);
 console.log(array);
 
 
------------
+//-----------
 5 5 5
