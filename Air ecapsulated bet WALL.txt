@@ -2,7 +2,7 @@
 
  
 
-Input Description:
+Input Desc:
 Each line contains an integer ‘N’ denoting the size of the array Next line contains N space separated numbers to be stored in array.
 
 Output Description:
