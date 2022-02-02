@@ -1,0 +1,10 @@
+  let data = userInput[0].split('');
+  
+  let A = [...new Set(data)]
+  
+  if(A.length ===2){
+      console.log("Saturated")
+  }else{
+      console.log("Unsaturated")
+  }
+  
