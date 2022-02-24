@@ -12,7 +12,7 @@ Sample Input :
 Sample Output :
 1
 
-//----------------------------
+//O/P----------------------------
 let A =userInput[0];
 let data =userInput[1].split(' ');
 let num1 = (+data[0])+(+data[1])+(+data[2]);
