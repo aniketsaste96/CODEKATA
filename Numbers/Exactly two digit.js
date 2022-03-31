@@ -11,7 +11,7 @@ Sample Input :
 Sample Output :
 Saturated
 
-//--------------------------------
+//-------------------------------- code
 
 
 let data = userInput[0].split('');
