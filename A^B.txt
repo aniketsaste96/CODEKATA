@@ -1,6 +1,6 @@
 /*INPUT
 3 4
-OUTPUT
+
 
 let data = userInput[0].split(' ');
 
