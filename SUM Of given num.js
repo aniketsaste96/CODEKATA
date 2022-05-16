@@ -6,3 +6,4 @@ let n = parseInt(userInput[0]);
     }
     console.log(sum)
 
+//output------------------------
