@@ -1,5 +1,5 @@
 // program to check an Armstrong number of three digits
-
+// 153 = 1^3 +5^3 +3^3
 let sum = 0;
 const number = 153
 
