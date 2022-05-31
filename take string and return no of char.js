@@ -25,6 +25,29 @@ function char(str){
 
 console.log(char("Helloh hi"))
 
+function charCount(str){
+    //store the result
+    var obj = {};
 
+     //loop through each charachter
+    for(var char of str){
+         char= char.toLowerCase();
+       //if char is present go inside
+        if(/[a-z0-9]/.test(char)){
+            if(obj[char]>0){
+                 //increment if have more than 1
+            obj[char]++;
+            }
+           
+        else{
+            //put 1 if it has repeated only one time;
+            obj[char] =1;
+        }
+        }
+    }
+    return obj;
+   
+}
+console.log(charCount("Helloh hi"))
 
 //-----{h: 3, e: 1, l: 2, o: 1, i: 1}
